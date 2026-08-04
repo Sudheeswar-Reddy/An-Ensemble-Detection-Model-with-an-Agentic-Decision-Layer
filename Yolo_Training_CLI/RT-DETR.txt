@@ -1,6 +1,6 @@
 yolo detect train ^
   model=rtdetr-l.pt ^
-  data="C:\Users\sudhe\OneDrive\Desktop\SEM-3\ADSA\Dataset_Splitted\data.yaml" ^
+  data="path\of\data.yaml" ^
   imgsz=640 ^
   batch=8 ^
   epochs=200 ^
