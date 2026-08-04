@@ -1,0 +1,25 @@
+yolo detect train ^
+  model=yolo11m.pt ^
+  data="C:\Users\sudhe\OneDrive\Desktop\SEM-3\ADSA\Dataset_Splitted\data.yaml" ^
+  imgsz=640 ^
+  batch=8 ^
+  epochs=200 ^
+  patience=30 ^
+  optimizer=AdamW ^
+  lr0=0.001 ^
+  cos_lr=True ^
+  warmup_epochs=5 ^
+  hsv_h=0.0 hsv_s=0.0 hsv_v=0.3 ^
+  degrees=0.0 shear=0.0 perspective=0.0 ^
+  fliplr=0.5 flipud=0.0 ^
+  mosaic=1.0 ^
+  close_mosaic=15 ^
+  cache=disk ^
+  device=0 ^
+  workers=4 ^
+  seed=0 ^
+  verbose=True ^
+  plots=True ^
+  save_period=10 ^
+  project="pvelad_runs" ^
+  name="yolo11m_rtx4050"
