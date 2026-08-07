@@ -19,5 +19,5 @@ yolo detect train ^
   verbose=True ^
   plots=True ^
   save_period=10 ^
-  project="path/to/results" ^ 
-  name="Yolo_RT-DETR"
+  project="results" ^ 
+  name="YOLO_RT-DETR"
