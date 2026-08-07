@@ -20,4 +20,4 @@ yolo detect train ^
   plots=True ^
   save_period=10 ^
   project="path/to/results" ^ 
-  name="RT-DETR"
+  name="Yolo_RT-DETR"
