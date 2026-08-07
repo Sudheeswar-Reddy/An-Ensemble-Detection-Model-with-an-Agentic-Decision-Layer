@@ -1,6 +1,6 @@
 yolo detect train ^
   model=yolo11m.pt ^
-  data="path\of\data.yaml" ^
+  data="path\to\data.yaml" ^
   imgsz=640 ^
   batch=8 ^
   epochs=200 ^
@@ -21,5 +21,5 @@ yolo detect train ^
   verbose=True ^
   plots=True ^
   save_period=10 ^
-  project="pvelad_runs" ^
-  name="yolo11m_rtx4050"
+  project="path/to/results" ^
+  name="YOLO11m"
