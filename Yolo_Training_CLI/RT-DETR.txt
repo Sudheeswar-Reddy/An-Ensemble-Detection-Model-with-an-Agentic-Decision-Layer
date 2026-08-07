@@ -1,6 +1,6 @@
 yolo detect train ^
   model=rtdetr-l.pt ^
-  data="path\of\data.yaml" ^
+  data="path\to\data.yaml" ^
   imgsz=640 ^
   batch=8 ^
   epochs=200 ^
@@ -19,5 +19,5 @@ yolo detect train ^
   verbose=True ^
   plots=True ^
   save_period=10 ^
-  project="pvelad_runs" ^
-  name="rtdetr_baseline"
+  project="path/to/results" ^ 
+  name="RT-DETR"
