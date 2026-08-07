@@ -79,7 +79,7 @@ The project is currently in the detector training and evaluation phase.
 - Detection Model
 - Training completed successfully
 - Approximate training time:
-  - **15 Hours**
+  - **12 hours 37 minutes**
 
 ---
 
@@ -88,7 +88,7 @@ The project is currently in the detector training and evaluation phase.
 - Detection Model
 - Training completed successfully
 - Approximate training time:
-  - **16 Hours 30 Minutes**
+  - **16 Hours 42 Minutes**
 
 ---
 
