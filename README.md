@@ -176,16 +176,17 @@ This transforms the framework from a conventional ensemble into an intelligent d
 
 ```text
 .
-├── Dataset/
+├── Dataset/-->Empty, can be replaced with desired dataset.
 ├── Results/
 │   ├── YOLO11m/
-│   └── YOLO26m/
+|   ├── YOLO26m/ 
+│   └── YOLO_RT-DETR/
 │
 ├── Yolo_Training_CLI/
 │   ├── README.md
-│   ├── YOLO11m_CLI.txt
-│   ├── YOLO26m_CLI.txt
-│   └── RT-DETR_CLI.txt
+│   ├── YOLO_detection_11m.txt
+│   ├── YOLO_detection_26m.txt
+│   └── RT-DETR.txt
 │
 ├── Ensemble/
 │
